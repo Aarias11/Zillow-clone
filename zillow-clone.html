@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Toto:wght@500&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+    <link rel="stylesheet" href="zillow-style.css">
+    <title>Zillow: Clone Website</title>
+</head>
+<body>
+    <nav>
+        <div class="whole-nav">
+            <ul class="left">
+                <li><a href="">Buy</a></li>
+                <li><a href="">Rent</a></li>
+                <li><a href="">Sell</a></li>
+                <li><a href="">Home Loans</a></li>
+                <li><a href="">Agent Finder</a></li>
+            </ul>
+            <div>
+                <img class="logo" src="https://s.zillowstatic.com/pfs/static/z-logo-default.svg"" alt="">
+            </div>
+            <ul class="right">
+                <li><a href="">Manage Rentals</a></li>
+                <li><a href="">Advertise</a></li>
+                <li><a href="">Help</a></li>
+                <li><a href="">Sign In</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+
+    <section class="search-container">
+        
+        <div>
+            <h1>Find it. Tour it. Own it.</h1>
+        </div>
+        <div class="search-bar">
+            
+            <input class="input-bar" type="search" placeholder="Enter an address, neighborhood, city, or ZIP code">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+ 
+        </div>
+        
+    </section>
+
+    <section class="mid-section">
+        <div class="card-wording">
+            <h5>Trending Homes in New York, NY</h5>
+            <span class="listing-ref">
+                Popular listings in the area
+            </span>
+            
+        </div>
+        
+            <hr>
+        <div class="main-card">
+            <div class="first-card">
+                <div class="pic-one"></div>
+                <div class="prices-one">
+                    <span class="prices">
+                        $59,000,000
+                    </span>
+                    <br>
+                    <span class="description">
+                        3 bds | 4 ba | 12, 131 sqft | Condo for ...
+                    </span>
+                    <br>
+                    <span class="address">
+                        2 Park Pl, New York, NY 10007
+                    </span>
+                    <br>
+                    <span class="listing">
+                        LISTING BY: SOTHEBY'S INTERNATIONAL REALTY
+                    </span>
+                </div>
+            </div>
+            <div class="second-card">
+                <div class="pic-two"></div>
+                <div class="prices-two">
+                    <span class="prices">
+                        $26,500,000
+                    </span>
+                    <br>
+                    <span class="description">
+                        5 bds | 6 ba | 8,725 sqft | House for sale
+                    </span>
+                    <br>
+                    <span class="address">
+                        10 E 64th St, New York, NY 10065
+                    </span>
+                    <br>
+                    <span class="listing">
+                        LISTING BY: MODLIN GROUP
+                    </span>
+                </div>
+            </div>
+            <div class="third-card">
+                <div class="pic-three"></div>
+                <div class="prices-three">
+                    <span class="prices">
+                        $22,500,000
+                    </span>
+                    <br>
+                    <span class="description"> 
+                        5 bds | 13 ba | 11, 000 sqft | Townhou...
+                    </span>
+                    <br>
+                    <span class="address">
+                        357 W 17th St, New York, NY 10011
+                    </span>
+                    <br>
+                    <span class="listing">
+                        LISTING BY: DOUGLAS ELLIMAN
+                    </span>
+                </div>
+            </div>
+
+            <div class="fourth-card">
+                <div class="pic-four"></div>
+                <div class="prices-four">
+                    <span class="prices">
+                        $65,000,000
+                    </span>
+                    <br>
+                    <span class="description">
+                        8 bds | 10 ba | 12, 000 sqft | Townhou...
+                    </span>
+                    <br>
+                    <span class="address">
+                        25 Riverside Dr, NEW YORK, NY 10023
+                    </span>
+                    <br>
+                    <span class="listing">
+                        LISTING BY: SOTHEBY'S INTERNATIONAL REALTY
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bottom-cards">
+        <div class="buy-home-card">
+            <span class="buy-pic">
+
+            </span>
+            <span class="headers">
+                <h4>Buy a home</h4>
+            </span>
+            <br>
+            <span class="features">
+                Find your place with an immersive photo experience and the most listings, including things you won't find anywhere else.
+            </span>
+            <br>
+            <span class="buttons">
+                <button>
+                    Browse homes
+                </button>
+            </span>
+
+        </div>
+        <div class="sell-home-card">
+            <span class="sell-pic">
+                
+            </span>
+            <span class="headers">
+                <h4>Sell a home</h4>
+            </span>
+            <br>
+            <span class="features">
+                No matter what path you take to sell your home, we can help you navigate a successful sale.
+            </span>
+            <br>
+            <span class="buttons">
+                <button>
+                    See your options
+                </button>
+            </span>
+
+        </div>
+        <div class="rent-home-card">
+            <span class="rent-pic">
+                
+            </span>
+            <span class="headers">
+                <h4>Rent a home</h4>
+            </span>
+            <br>
+            <span class="features">
+                We're creating a seamless online experience - from shopping on the largest rental network, to applying, to paying rent.
+            </span>
+            <br>
+            <span class="buttons">
+                <button>
+                    Find rentals
+                </button>
+            </span>
+
+        </div>
+    </section>
+
+    <section class="mid-section">
+        <div class="card-wording">
+            <h5>Homes for you</h5>
+            <span class="listing-ref">
+                Based on your view history
+            </span>
+            <br>
+            <br>
+            <hr>
+        </div>
+        <div class="all-bottom-cards">
+            <div class="main-card">
+                <div class="first-card">
+                    <div class="pic-bottom-one"></div>
+                    <div class="prices-one">
+                        <span class="prices">
+                            $2,495,000
+                        </span>
+                        <br>
+                        <span class="description">
+                            2 bds | 2 ba | -- sqft | Condo for sale
+                        </span>
+                        <br>
+                        <span class="address">
+                            34 Gramercy Park E #7AR, New York, NY
+                        </span>
+                        <br>
+                        <span class="listing">
+                            LISTING BY: COMPASS
+                        </span>
+                    </div>
+                </div>
+                <div class="second-card">
+                    <div class="pic-bottom-two"></div>
+                    <div class="prices-two">
+                        <span class="prices">
+                            $34,500,000
+                        </span>
+                        <br>
+                        <span class="description">
+                            3 bds | 4 ba | 3,114 sqft | Condo for sale
+                        </span>
+                        <br>
+                        <span class="address">
+                            220 Central Park S #39A, New York, NY
+                        </span>
+                        <br>
+                        <span class="listing">
+                            LISTING BY: SOTHEBY'S INTERNATIONAL REALTY
+                        </span>
+                    </div>
+                </div>
+                <div class="third-card">
+                    <div class="pic-bottom-three"></div>
+                    <div class="prices-three">
+                        <span class="prices">
+                            $850,000
+                        </span>
+                        <br>
+                        <span class="description"> 
+                            1 bds | 1 ba | 650 sqft | Condo for sale
+                        </span>
+                        <br>
+                        <span class="address">
+                            25 Charles St BASEMENT 1-B, New Y...
+                        </span>
+                        <br>
+                        <span class="listing">
+                            LISTING BY: CORE
+                        </span>
+                    </div>
+                </div>
+    
+                <div class="fourth-card">
+                    <div class="pic-bottom-four"></div>
+                    <div class="prices-four">
+                        <span class="prices">
+                            $398,000
+                        </span>
+                        <br>
+                        <span class="description">
+                            Studio | 1 ba | -- sqft | Condo for sale
+                        </span>
+                        <br>
+                        <span class="address">
+                            140 E 40th St APT 10G, New York, NY ...
+                        </span>
+                        <br>
+                        <span class="listing">
+                            LISTING BY: SOTHEBY'S INTERNATIONAL REALTY
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section>
+        <section class="mid-section">
+            <div class="card-wording">
+                <h5>Homes for you in New York, NY</h5>
+                <span class="listing-ref">
+                    Based on your view history
+                </span>
+                <br>
+                <br>
+                <hr>
+            </div>
+            <div class="all-bottom-cards">
+                <div class="main-card">
+                    <div class="first-card">
+                        <div class="mid-first-pic"></div>
+                        <div class="prices-one">
+                            <span class="prices">
+                                $270,000
+                            </span>
+                            <br>
+                            <span class="description">
+                                4 bds | 2 ba | 1,920 sqft | House for sale
+                            </span>
+                            <br>
+                            <span class="address">
+                                13437 155th St, Jamaica, NY 11434
+                            </span>
+                            <br>
+                            <span class="listing">
+                                LISTING BY: SOWAE CORP
+                            </span>
+                        </div>
+                    </div>
+                    <div class="second-card">
+                        <div class="mid-last-pic"></div>
+                        <div class="prices-two">
+                            <span class="prices">
+                                $250,000
+                            </span>
+                            <br>
+                            <span class="description">
+                                4 bds | 2 ba | 2,162 sqft | House for sale
+                            </span>
+                            <br>
+                            <span class="address">
+                                11610 155th St, Jamaica, NY 11434
+                            </span>
+                            <br>
+                            <span class="listing">
+                                LISTING BY: SOWAE CORP
+                            </span>
+                        </div>
+                    </div>
+                    <div class="third-card">
+                        <div class="mid-third-pic"></div>
+                        <div class="prices-three">
+                            <span class="prices">
+                                $199,000
+                            </span>
+                            <br>
+                            <span class="description"> 
+                                3 bds | 2 ba | 1,347 sqft | Townhouse ...
+                            </span>
+                            <br>
+                            <span class="address">
+                                46 Circle Loop #P, Saten Island, NY ...
+                            </span>
+                            <br>
+                            <span class="listing">
+                                LISTING BY: EMERALD ELITE REALTY
+                            </span>
+                        </div>
+                    </div>
+        
+                    <div class="fourth-card">
+                        <div class="mid-last-pic"></div>
+                        <div class="prices-four">
+                            <span class="prices">
+                                $300,000
+                            </span>
+                            <br>
+                            <span class="description">
+                                6bds | 3 ba | 3,120 sqft | House for sale
+                            </span>
+                            <br>
+                            <span class="address">
+                                10727 155th St, Jamaica, NY 11433
+                            </span>
+                            <br>
+                            <span class="listing">
+                                LISTING BY: SOWAE CORP
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section>
+        <section class="mid-section">
+            <div class="card-wording">
+                <h5>Selling Soon Homes in New York, NY</h5>
+                <span class="listing-ref">
+                    Likely to sell faster than 80% of homes nearby
+                </span>
+                <br>
+                <br>
+                <hr>
+            </div>
+            <div class="all-bottom-cards">
+                <div class="main-card">
+                    <div class="first-card">
+                        <div class="first-last-pic"></div>
+                        <div class="prices-one">
+                            <span class="prices">
+                                $1,999,000
+                            </span>
+                            <br>
+                            <span class="description">
+                                6 bds | 5 ba | 2,900 sqft | Multi-family ...
+                            </span>
+                            <br>
+                            <span class="address">
+                                169 68th St, Brooklyn, NY 11220
+                            </span>
+                            <br>
+                            <span class="listing">
+                                LISTING BY: NEUHAUS REALTY INC.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="second-card">
+                        <div class="second-last-pic"></div>
+                        <div class="prices-two">
+                            <span class="prices">
+                                $799,000
+                            </span>
+                            <br>
+                            <span class="description">
+                                5 bds | 4 ba | 2,227 sqft | Multi-family ...
+                            </span>
+                            <br>
+                            <span class="address">
+                                3452 Ely Avenue, BRONX, NY 10469
+                            </span>
+                            <br>
+                            <span class="listing">
+                                LISTING BY: RE/MAX DISTINGUISHED HMS.&PROP
+                            </span>
+                        </div>
+                    </div>
+                    <div class="third-card">
+                        <div class="third-last-pic"></div>
+                        <div class="prices-three">
+                            <span class="prices">
+                                $1,399,000
+                            </span>
+                            <br>
+                            <span class="description"> 
+                                3 bds | 2 ba | 1,200 sqft | House for sale
+                            </span>
+                            <br>
+                            <span class="address">
+                                2315 Crescent St, Long Island City, NY ...
+                            </span>
+                            <br>
+                            <span class="listing">
+                                LISTING BY: HALVATZIS REALTY
+                            </span>
+                        </div>
+                    </div>
+        
+                    <div class="fourth-card">
+                        <div class="last-pic"></div>
+                        <div class="prices-four">
+                            <span class="prices">
+                                $849,000
+                            </span>
+                            <br>
+                            <span class="description">
+                                4 bds | 5 ba | 2,408 sqft | Multi-family ...
+                            </span>
+                            <br>
+                            <span class="address">
+                                64 Willow Wood Ln, Staten Island, NY ...
+                            </span>
+                            <br>
+                            <span class="listing">
+                                LISTING BY: KELLER WILLIAMS REALTY STATEN  ISLAND
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="last-notes-section">
+        <div class="mid-section" class="last-footers">
+            <span>
+                <h3>You have a right to fair housing.</h3>
+            </span>
+            <span class="learn">
+                Learn about New York Fair Housing protections
+            </span>
+        </div>
+        
+        
+    </section>
+
+    <section class="bottom-navbar">
+        <div class="bottom-links">
+           <ul class="bottom-nav-links">
+            <li>
+                <a href="">
+                    Real Estate
+                    <select name="" id="last-link"></select>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    Rentals
+                    <select name="" id="last-link"></select>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    Mortgage Rates
+                    <select name="" id="last-link"></select>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    Browse Rates
+                    <select name="" id="last-link"></select>
+                </a>
+            </li>
+           </ul>
+        </div>
+    </section>
+    
+    
+       
+</body>
+</html>
